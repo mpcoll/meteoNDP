@@ -11,7 +11,6 @@ import random
 from matplotlib.projections.polar import PolarAxes
 from numpy.lib.twodim_base import histogram2d
 import matplotlib.pyplot as plt
-from pylab import poly_between
 from matplotlib.projections import register_projection
 
 ZBASE = -1000  # The starting zorder for all drawing, negative to have the grid on
